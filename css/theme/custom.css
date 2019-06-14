@@ -1,8 +1,11 @@
 * {
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Roboto Slab", "Rockwell", serif; }
 
 body {
-  background-color: #F9DC24; }
+  /* background-color: #F9DC24;*/ 
+  background: #fafffa;
+  background-color: #fafffa;
+} 
 
 section {
   height: 100% !important; }
@@ -25,9 +28,9 @@ section {
   margin-left: 75px; }
   .reveal .title__title {
     font-size: 3em !important;
-    font-family: "Viga", sans-serif !important;
     width: 40%;
     text-align: left;
+    font-family: "Viga", sans-serif;
     font-size: 120px !important; }
   .reveal .title__tagline {
     font-size: 1.5em !important;
@@ -40,7 +43,6 @@ section {
   top: 0 !important;
   padding: 0 !important; }
   .reveal .intro__title {
-    font-family: "Viga", sans-serif;
     color: #F9DC24;
     position: absolute;
     top: 50px;
