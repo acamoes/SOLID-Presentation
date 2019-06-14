@@ -65,7 +65,27 @@ body {
 /*********************************************
  * OTHER
  *********************************************/
-.reveal p {
+ .reveal .title {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  margin-left: 75px; }
+
+  .reveal .title__title {
+    font-size: 3em;
+    width: 70%;
+    text-align: left;
+    font-size: 100px; }
+
+  .reveal .title__tagline {
+    font-size: 1.5em ;
+    text-align: left;
+    margin-top: 50px; }
+
+ .reveal p {
   margin: 20px 0;
   line-height: 1.3; }
 
